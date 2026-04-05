@@ -1,0 +1,36 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <!-- titre du fragment -->
+    <TextView
+        android:id="@+id/textOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fragment One"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#021A54"
+        android:layout_marginBottom="12dp"/>
+
+    <!-- petit texte descriptif -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cliquez sur le bouton pour afficher un message"
+        android:textSize="14sp"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- bouton pour changer le texte -->
+    <Button
+        android:id="@+id/btnHello"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dire bonjour"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#AE2448"/>
+
+</LinearLayout>

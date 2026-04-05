@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <!-- titre du fragment -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fragment Two"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#CE2626"
+        android:layout_marginBottom="12dp"/>
+
+    <!-- texte qui affiche la valeur -->
+    <TextView
+        android:id="@+id/tvValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Valeur : 0"
+        android:textSize="20sp"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- petite description -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Déplacez la barre pour changer la valeur"
+        android:textSize="14sp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- barre de progression -->
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:max="100" />
+
+</LinearLayout>
